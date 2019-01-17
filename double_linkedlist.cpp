@@ -138,7 +138,7 @@ int main() {
 	cout << list->back() << '\n';
 	cout << list->empty() << '\n';
 	list->pop_back();
-	cout << list->empty() << '\n';
+	cout << list->empty();
 
 
 	return 0;
